@@ -6,3 +6,21 @@ body {
 a {
   color: #00B7FF;
 }
+
+#enterTweet,#waiting,#showWinner{
+    display: none;
+}
+
+.voteTweet{
+    cursor: pointer;
+}
+.voteTweet:hover{
+    color: LightBlue;
+}
+
+#winner{
+    color: LightGreen;
+}
+#winningTweet{
+    color: LightBlue;
+}
